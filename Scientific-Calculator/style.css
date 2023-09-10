@@ -1,0 +1,51 @@
+form{
+	width:440px;
+	padding:25px;
+	margin:auto;
+	border:5px solid #aaa;
+	border-radius:15px 15px;
+	}
+ 
+	input{
+	background:#888;
+	color:#fff;
+	font-size:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:19px;
+	padding-right:19px;
+	margin:6px;
+	}
+ 
+	h2{
+	text-align:center;
+	}
+ 
+	.sc{
+	background:#fff;
+	color:#000;
+	}
+
+    /* Add responsive styles here */
+    @media screen and (max-width: 600px) {
+        form {
+            width: 90%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        input[type="button"] {
+            width: 100%;
+            font-size: 12px;
+            padding: 5px;
+            margin: 2px;
+        }
+
+        .sc {
+            width: 70%;
+        }
+    }
